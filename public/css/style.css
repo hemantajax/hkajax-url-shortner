@@ -1,0 +1,47 @@
+body{
+	background:#eee;
+}
+
+.container{
+	width: 80%;
+	margin: 20px auto;
+	text-align: center;
+}
+input[type=text]{
+	width: 60%;
+	padding: 2px;
+	font-size: 30px;
+	color: #666;
+	height: 36px;
+}
+
+input[type="submit"] {
+    border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 5px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 5px 24px;
+    vertical-align: top;
+    transition: none 0s ease 0s;
+    background-color: #006DCC;
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);   
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .2) inset, 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.errors{
+	color: #f00;
+	font-style: italic;
+}
+
+.masthead .btn {
+
+}
